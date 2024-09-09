@@ -1,0 +1,105 @@
+[
+  {
+    "id": 1,
+    "subMenu": false,
+    "menuName": "Dashboard",
+    "menuPath": "/dashboard/affiliate-portal",
+    "menuIcon": "MdOutlineSpaceDashboard"
+  },
+  {
+    "id": 2,
+    "subMenu": false,
+    "menuName": "Affiliate Information",
+    "menuPath": "/dashboard/user-profile",
+    "menuIcon": "IoInformationCircleOutline"
+  },
+  {
+    "id": 3,
+    "subMenu": true,
+    "menuName": "Code Setting",
+    "menuIcon": "CiBarcode",
+    "subMenus": [
+      {
+        "id": 1,
+        "name": "District",
+        "path": "/dashboard/districts",
+        "menuIcon": "MdAddBusiness"
+      },
+      {
+        "id": 2,
+        "name": "Uom",
+        "path": "/dashboard/uom",
+        "menuIcon": "HiOutlineUserGroup"
+      },
+      {
+        "id": 3,
+        "name": "Currency",
+        "path": "/dashboard/currency",
+        "menuIcon": "HiOutlineUserGroup"
+      },
+      {
+        "id": 3,
+        "name": "Type of Stocks",
+        "path": "/dashboard/type-of-stock",
+        "menuIcon": "HiOutlineUserGroup"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "subMenu": false,
+    "menuName": "Category",
+    "menuPath": "/dashboard/category",
+    "menuIcon": "TbCategory"
+  },
+  {
+    "id": 5,
+    "subMenu": false,
+    "menuName": "Sub Category",
+    "menuPath": "/dashboard/sub-category",
+    "menuIcon": "TbCategoryPlus"
+  },
+  {
+    "id": 6,
+    "subMenu": false,
+    "menuName": "Items",
+    "menuPath": "/dashboard/set-items/information",
+    "menuIcon": "LuBookOpen"
+  },
+
+  {
+    "id": 7,
+    "subMenu": false,
+    "menuName": "Customers",
+    "menuPath": "/dashboard/customer-data",
+    "menuIcon": "BsDatabaseAdd"
+  },
+  {
+    "id": 8,
+    "subMenu": false,
+    "menuName": "Sales Order",
+    "menuPath": "/dashboard/salesmst",
+    "menuIcon": "MdOutlinePointOfSale"
+  },
+  {
+    "id": 9,
+    "subMenu": false,
+    "menuName": "Roles",
+    "menuPath": "/dashboard/role/information",
+    "menuIcon": "PiUsersThreeBold"
+  },
+  {
+    "id": 10,
+    "subMenu": false,
+    "menuName": "Users",
+    "menuPath": "/dashboard/users",
+    "menuIcon": "FaRegUser"
+  },
+  {
+    "id": 11,
+    "subMenu": false,
+    "menuName": "Settings",
+    "menuPath": "/dashboard/admin-settings",
+    "menuIcon": "IoSettingsSharp"
+  }
+]
